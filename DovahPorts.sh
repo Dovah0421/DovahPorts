@@ -4,7 +4,7 @@
 function ctrl_c(){
     echo -e "\n\n${redColour}[!] Saliendo... ${endColour}\n"
     exit 1
-    
+
 }
 
 #Ctrl_C 
@@ -128,7 +128,7 @@ function_ayuda() {
                     echo -e "${blueColour}Modo 1) Aplicara un Scaneo unicamente a los 1000 puertos mas comunes (No los primeros 1000 puertos)${endColour}"
                     echo -e "${blueColour}Modo 2) Aplicara un Scaneo unicamente a los 1000 puertos mas comunes y muestra el servicio${endColour}"
                     echo -e "${blueColour}Modo 3) Aplicara un Scaneo a todos los puertos (65535, Esto puede tardar un poco mas) ademas de aplicar Scripts de reconocimiento de servicio en el puerto${endColour}"
-                    echo -e "${yellowColour}/t[!] Todos los modos aplican un minimo de 5000 paquetes por segundo [!]${endColour}"
+                    echo -e "${yellowColour}\t[!] Todos los modos aplican un minimo de 5000 paquetes por segundo [!]${endColour}"
                     echo -n -e "${greenColour}Presione Enter para continuar${endColour}"
                     read
                     ;;
@@ -174,7 +174,8 @@ function_reporte() {
 }
 
 #Brand
-brand="  ▄▄▄▄▄........▄.▄·.▄▄▄·..▄..▄
+brand="  
+  ▄▄▄▄▄.........▄.▄·.▄▄▄·..▄..▄
   ██▪.██.▪.....▪█·█▌▐█.▀█.██▪▐█
   ▐█·.▐█▌.▄█▀▄.▐█▐█•▄█▀▀█.██▀██
   ██..██.▐█▌.▐▌.███.▐█.▪▐▌██▌.█
