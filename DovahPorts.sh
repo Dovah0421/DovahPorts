@@ -3,7 +3,7 @@
 #Control_C
 function ctrl_c(){
     echo -e "\n\n${redColour}[!] Saliendo... ${endColour}\n"
-    exit 1 
+    exit 1
 }
 
 #Ctrl_C 
